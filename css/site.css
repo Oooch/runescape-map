@@ -4,7 +4,7 @@
 }
 
 #zoom-out-button {
-    top: 15%;
+    top: 25%;
     left: 10%;
 }
 
@@ -13,8 +13,8 @@
     width: 100px;
     height: 100px;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 5px solid black;
+    background-color: rgba(95, 177, 86, 0.8);
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 0px;
     padding: 10px 20px;
     cursor: pointer;
@@ -24,6 +24,23 @@
 }
 
 #form-box-image {
-    width: 100%; /* Allow the image to take the full width of the container */
-    height: auto; /* Preserve the image's aspect ratio */    
+    width: auto; 
+    height: auto;
+}
+
+#map-box {
+    position: relative;
+    width: 1000px;
+    height: 768;
+    border: 5px solid black;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#background {
+    background-color: rgb(77, 77, 77);
 }
