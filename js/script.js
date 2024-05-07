@@ -37,9 +37,9 @@ mapImage.addEventListener('mousemove', (e) => {
 mapImage.addEventListener('wheel', (e) => {
     e.preventDefault();
     if (e.deltaY < 0) {
-        zoomLevel *= 1 + zoomStep;
+        ZoomIn();
     } else {
-        zoomLevel /= 1 + zoomStep;
+        ZoomOut();
     }
     setTransform(xOffset, yOffset);
 });
